@@ -1,4 +1,4 @@
-name: oktsss
+name: Build Docker Image
 on:
   workflow_dispatch:
 jobs:
@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - name: oktsss
+      - name: Build Docker Image
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
           name: namemf224/oktsss
