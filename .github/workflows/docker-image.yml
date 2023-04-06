@@ -9,6 +9,6 @@ jobs:
       - name: Build Docker Image
         uses: elgohr/Publish-Docker-Github-Action@master
         with:
-          name: namemf224/oktest
+          name: namemf224/codesandbox
           username: '${{ secrets.DOCKER_USERNAME }}'
           password: '${{ secrets.DOCKER_PASSWORD }}'
